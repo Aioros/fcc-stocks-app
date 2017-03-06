@@ -1,0 +1,30 @@
+/****** Main Styling ******/
+
+.placeholder {
+	display: none;
+}
+
+#chart {
+	height: 300px;
+}
+
+.stock {
+	position: relative;
+    width: 400px;
+    height: 140px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+#stock_code {
+	width: 300px;
+}
+
+.stock-remove {
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	cursor: pointer;
+}
